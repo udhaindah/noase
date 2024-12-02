@@ -30,13 +30,8 @@ so if you want create multiple providers you need to put multiple proxy there.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/airdropinsiders/Oasis-Auto-Bot.git
-   cd Oasis-Auto-Bot
-   ```
-
-2. Install dependencies:
-
-   ```bash
+   git clone https://github.com/udhaindah/oase.git
+   cd oase
    npm install
    ```
 
