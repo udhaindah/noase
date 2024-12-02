@@ -5,8 +5,6 @@ AI inference powered by distributed compute
 
 # Features
 
-![Banner](image.png)
-
 - **Register/Login Accounts**
 
 - **Auto Create Providers**
