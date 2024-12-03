@@ -3,21 +3,14 @@ import { createConnection } from "./utils/websocket.js";
 import { showBanner } from "./utils/banner.js";
 
 async function start() {
-    showBanner()
+    showBanner();
     const tokens = await readToken("providers.txt");
-    const proxies = await readToken("proxy.txt");
 
-    if (proxies.length < tokens.length) {
-        logger("Not enough proxies for the number of Providers. Exiting...");
-        return;
-    }
-
-    // Create connections with 1 proxy per token
+    // Buat koneksi tanpa proxy
     for (let i = 0; i < tokens.length; i++) {
         const token = tokens[i];
-        const proxy = proxies[i]; 
 
-        await createConnection(token, proxy);
+        await createConnection(token); // Tidak ada proxy yang digunakan
         await delay(5000);
     }
 }
