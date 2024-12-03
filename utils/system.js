@@ -11,7 +11,7 @@ function generateRandomCpuInfo() {
     const cpuModels = [
         "AMD Ryzen 5 5600G with Radeon Graphics",
         "Intel Core i7-9700K",
-        "AMD Ryzen 7 5800X",
+        "AMD Ryzen 9 7950X",
         "Intel Core i9-10900K",
         "Intel Core i5-11600K",
         "AMD Ryzen 9 5900X",
